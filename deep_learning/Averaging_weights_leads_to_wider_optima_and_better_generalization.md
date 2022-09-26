@@ -1,5 +1,5 @@
 # Averaging weights leads to wider optima and better generalization
-[paper review](https://arxiv.org/abs/1803.05407)
+[paper link](https://arxiv.org/abs/1803.05407)
 
 ### 문제
 
