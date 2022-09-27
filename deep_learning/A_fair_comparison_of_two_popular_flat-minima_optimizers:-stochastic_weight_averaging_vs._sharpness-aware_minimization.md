@@ -11,14 +11,14 @@ flat한 loss는 모델의 generalization성능을 향상시키는 것으로 앞�
 
 ### 방법
 
-<p align="center"><img src="../resource/kaddour2022fair_1.png"><\p>
+<p align="center"><img src="../resource/kaddour2022fair_1.png"></p>
  
 SWA는 flat한 minimum지점에서는 gradient가 낮으며 iterate되는 동안 flat한 영역에 많이 머물기 때문에 iterate의 평균이 더 flat한 영역을 찾을 것이라는
 아이디어에 착안한다. SWA는 여기서 iterate마다 매번 모델을 저장하고 추론하는 과정을 대신해, 모델을 누적하여 업데이트 시키는 방법을 제안하였다.
 SAM은 현재 iterate에서 이웃한 maximum loss를 최소화한다. 즉, loss의 기울기가 가장 큰 곳에서 descent방향을 정하고 loss를 업데이트하여
 flat한 영역을 찾는 방법이다.
 
-<p align="center"><img src="../resource/kaddour2022fair_2.png"><\p>
+<p align="center"><img src="../resource/kaddour2022fair_2.png"></p>
   
 위 실험 결과의 관찰은 다음과 같다.
   
@@ -35,7 +35,7 @@ flat한 정도를 수치화한 결과는 위 그림과 같다.
 
 결과적으로, SAM은 SWA 보다 더 flat한 영역을 찾지만 더 sharp한 방향에 가까울 수 있다. 
 
-<p align="center"><img src="../resource/kaddour2022fair_4.png"><\p>
+<p align="center"><img src="../resource/kaddour2022fair_4.png"></p>
 
 위 그림은 다양한 task 및 모델에서 알고리즘의 성능을 비교한다.
   
