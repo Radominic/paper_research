@@ -10,14 +10,14 @@ loss space의 flat minima를 찾는 방법 sharpness-aware minimization(SAM)을 
 
 ### 방법
 
-<img src="resource/foret2020sharpness_1.png">
+<img src="../resource/foret2020sharpness_1.png">
 
 위 수식은 본 논문에서 제안하는 알고리즘을 표현한 수식이다.
 좌항의 데이터 D에 대한 loss는 구할 수 없기 때문에 D의 샘플 S에 대한 loss식으로 upper boundary를 구한다. 이때 찾고자 하는 값 w를 기준으로 ρ범위의
 loss를 최대화 하는 식을 세운다. 즉, 현재의 loss 값에서 최대 높이에 해당하는 지점을 찾아 이동시킨다. 이후 우항의 값을 최소화 하는 task를 통해 flat한
 loss space로 이동한다. 
 
-<img src="resource/foret2020sharpness_2.png">
+<img src="../resource/foret2020sharpness_2.png">
 
 위 그림을 통해 직관적인 이해가 가능하다.
 $W_{t}$에 해당하는 값을 ε에의해 좌측로 최대화(gradient ascent) 시킨후 $W_{adv}$에서 loss를 최소화시키는 기울기를 찾는다. 그리고 찾은 기울기로 
