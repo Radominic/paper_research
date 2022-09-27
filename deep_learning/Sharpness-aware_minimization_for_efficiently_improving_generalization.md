@@ -22,6 +22,7 @@ loss space로 이동한다.
 위 그림을 통해 직관적인 이해가 가능하다.
 $W_{t}$에 해당하는 값을 ε에의해 좌측로 최대화(gradient ascent) 시킨후 $W_{adv}$에서 loss를 최소화시키는 기울기를 찾는다. 그리고 찾은 기울기로 
 $W_{t}$를 이동시킨다. 
+요약하자면, 이웃한 loss중 가장 기울기가 높은 loss를 최소화 시키는 방향으로 이동해 flat한 영역을 찾는다.
 
 ### 공헌
 
@@ -30,6 +31,6 @@ loss의 sharpness와 generalization사이의 관계에 대한 고찰.
 
 ### 의견
 
-loss space의 sharpness를 통해 test데이터의 generalization 성능을 향상시킬 수 있다는 점은 새롭다. 하지만 다른 weight space등을 활용한 방법들과
+loss space의 sharpness를 통해 test데이터의 generalization 성능을 향상시킬 수 있다는 점은 매우 직관적이고 새롭다. 하지만 다른 weight space등을 활용한 방법들과
 상충되지 않게 적용될 수 있을지 검증이 필요할 것 같다.
 
