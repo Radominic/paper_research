@@ -13,12 +13,12 @@
 
 ### 방법
 
-<p align="center"><img src="buratti2020optimization_1.png"></p>
+<p align="center"><img src="../resource/buratti2020optimization_1.png"></p>
 
 논문에서 제안하는 시스템은 광전지를 생산하는 recipe를 뉴럴네트워크를 통해 학습시킨다.
 여기서 뉴럴네트워크는 유전 알고리즘에 의해 반복적으로 최적화 되어 가장 좋은 recipe를 선택하게 된다. 
 
-<p align="center"><img src="buratti2020optimization_2.png"></p>
+<p align="center"><img src="../resource/buratti2020optimization_2.png"></p>
 
 실험에서 확인할 수 있는 것처럼 유전알고리즘의 iteration이 반복될 수록 태양전지의 효율이 증가한다. 유전알고리즘 특성상 돌연변이 선택으로 인한
 약간의 분산즈악는 존재한다. 
