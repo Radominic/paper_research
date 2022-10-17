@@ -17,7 +17,7 @@ supply chain의 중단은 최근 질병의 발생과 수에즈 운하 차단과 
 
 전체 공급망 네트워크에서 서브 그래프 추출
 
-<p aling="center"><img src="../resource/kosasih2022machine_3.png"></p>
+<p aling="center"><img src="../resource/kosasih2022machine_2.png"></p>
 
 서브 그래프에 깊이에 따라 레이블링 후 원핫 임베딩
 
