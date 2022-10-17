@@ -13,15 +13,15 @@ supply chain의 중단은 최근 질병의 발생과 수에즈 운하 차단과 
 
 본 논문에서 제안하는 GNN기반 link prediction은 다음과 같은 단계를 거친다.
 
-<p aling="center"><img src="../resource/kosasih2022machine_1.png"></p>
+<p align="center"><img src="../resource/kosasih2022machine_1.png"></p>
 
 전체 공급망 네트워크에서 서브 그래프 추출
 
-<p aling="center"><img src="../resource/kosasih2022machine_2.png"></p>
+<p align="center"><img src="../resource/kosasih2022machine_2.png"></p>
 
 서브 그래프에 깊이에 따라 레이블링 후 원핫 임베딩
 
-<p aling="center"><img src="../resource/kosasih2022machine_3.png"></p>
+<p align="center"><img src="../resource/kosasih2022machine_3.png"></p>
 
 GNN을 통해 링크 노드(공급망)간 링크 확률 예측
 
