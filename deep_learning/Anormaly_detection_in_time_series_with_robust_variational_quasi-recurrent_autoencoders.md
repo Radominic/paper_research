@@ -6,13 +6,13 @@
 
 본 논문에서는 time series unsupervised 데이터에서 anormaly를 효과적으로 탐지하기 위한 variational quasi-recurrent autoencorders(VQRAE)를 제안한다.
 
-<p align="center"><img src="kieu2022anomaly_1.png"></p>
+<p align="center"><img src="../resource/kieu2022anomaly_1.png"></p>
 
 기존의 unsupervised 데이터를 학습하기 위한 방법에는 autoencorder(AE)가 있다. autoencorder는 bottleneck 형태의 네트워크 layer를 통해 데이터를 압축하고
 다시 복원하는 과정에서 데이터의 특성(latent variable)을 학습하는 것을 목표로 한다. autoencorder는 데이터의 특성을 학습하는 encording 네트워크를
 학습하기 위해 decording과정을 연결하여 데이터를 복원한다.
 
-<p align="center"><img src="kieu2022anomaly_2.png"></p>
+<p align="center"><img src="../resource/kieu2022anomaly_2.png"></p>
 
 variational autoencorder(VAE)는 마찬가지로 encorder와 decorder로 구성되어 있지만 데이터의 분포를 학습해
 데이터를 새롭게 생산할 수 있는 decording 네트워크를 학습하기 위해 encording과정을 연결한다.
@@ -24,7 +24,7 @@ backpropagation과정에서 미분 가능하도록 reparameterization trick을 �
 
 recurrent autoencorder(RAE)는 ffn을 사용한 AE와 달리 sequence data에서 temporal dependency를 학습하기 위해 rnn을 사용하였다.
 
-<p align="center"><img src="kieu2022anomaly_3.png"></p>
+<p align="center"><img src="../resource/kieu2022anomaly_3.png"></p>
 
 variational RAE(VRAE)는 time series데이터에서 anormaly detection을 위해 고안된 sota.
 VRAE의 한계점으로 학습데이터에서는 anomaly를 제외하고 사용하고, recursive구조 때문에 computation cost가 높음, 구조적 문제로 bi-directional 학습 불가라는 단점이 있다.
@@ -34,7 +34,7 @@ non-recursive mechanism 및 bi-directional computation이 가능하다.
 
 ### 방법
 
-<p align="center"><img src="kieu2022anomaly_4.png"></p>
+<p align="center"><img src="../resource/kieu2022anomaly_4.png"></p>
 
 VQRAE는 RAE와 달리 recurrent state(h)의 계산이 latent variable에 의존하지 않으며, 양 방향으로 존재해 매 시점에서 전체 input sequence 정보를 이용해
 latent variable을 학습 가능하다. 논문에서 도입된 quasi-recurrent neural network는 t-1 및 t 시점의 정보만을 사용하기 때문에
