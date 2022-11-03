@@ -10,7 +10,7 @@
 
 ### 방법
 
-<p align="center"><src img="../resource/wan2019blockchain_1.png"></p>
+<p align="center"><img src="../resource/wan2019blockchain_1.png"></p>
 
 본 논문에서 제안하는 탈중앙화 시스템은 5개의 레이어로 구성된다 (Sensing Layer, Management Hub Layer, Firmware Layer, Storage Layer, Application Layer).
 
@@ -23,7 +23,7 @@
 이중 Sensing, Management Hub, Storage Layer는 intranet에서 데이터 수집 및 저장기능을 중심으로 동작한다.
 Management Hub, Application Layer는 extranet에서 유저 서비스 제공을 위한 데이터 활용 중심 기능으로 동작한다. 
   
-<p align="center"><src img="../resource/wan2019blockchain_2.png"></p>
+<p align="center"><img src="../resource/wan2019blockchain_2.png"></p>
 
 블록체인은 storage layer에 저장되며 기존의 블록체인과 동일한 시스템 유지.
 
