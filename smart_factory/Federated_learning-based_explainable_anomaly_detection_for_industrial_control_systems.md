@@ -13,11 +13,11 @@ Federated learning-based Explainable Anomaly Detection(FedEX) 아키텍처를 �
 
 ### 방법
 
-<p align="center"><img src="../resource/huong2022federated_1.png"></p>
+<p align="center"><img src="../resource/huong2022federated_1.PNG"></p>
 
 본 논문에서 제안하는 FedeX의 구조는 일반적인 연합학습의 구조를 따른다.
 
-<p align="center"><img src="../resource/huong2022federated_2.png"></p>
+<p align="center"><img src="../resource/huong2022federated_2.PNG"></p>
 
 FedeX는 입력으로 받는 데이터에 대해 VAE를 통해 representation을 학습한다. 일반적인 VAE기반 anomaly detection 모델에서와 같이
 이상 데이터에 대해서는 정상 데이터의 representation과 비교하여 SVDD 분류기를 통해 분류한다.
