@@ -11,11 +11,11 @@ loss prediction module은 task agnostic하게 적용이 가능하다.
 
 ### 방법
 
-<p align="center"><img src="yoo2019learning_1.png"></p>
+<p align="center"><img src="../resource/yoo2019learning_1.png"></p>
 
 제안하는 loss prediction module은 다음과 같다. 기존의 네트워크 자체에 구성되어 loss를 예측할 수 있다.
 
-<p align="center"><img src="yoo2019learning_2.png"></p>
+<p align="center"><img src="../resource/yoo2019learning_2.png"></p>
 
 loss prediction module의 구조를 자세히 보았을 때, 기존 네트워크의 각 레이어들의 집합으로 구성된 각각의 block 단위의
 아웃풋을 global average pooling, fully connected, relu layer를 포함한 layer들을 통해 학습하고 concat하여
