@@ -11,12 +11,12 @@
 
 ### 방법
 
-<p align="center"><img src="../resource/chen2020addernet_1.png"></p>
+<p align="center"><img src="../resource/chen2020addernet_1.PNG"></p>
 
 기존의 convolution 연산은 위 식과 같다 Y는 cross correlation 연산에 의한 similarity를 의미한다.
 여기서 x는 input feature, F는 filter를 의미하고, S는 similarity measure로 곱셈연산을 의미한다.
 
-<p align="center"><img src="../resource/chen2020addernet_2.png"></p>
+<p align="center"><img src="../resource/chen2020addernet_2.PNG"></p>
 
 본 연구에서는 위 식과 같이 input feature과 filter 사이의 similarity 연산을 l1 norm으로 정의한다.
 음수값으로 고정된 AdderNet의 similarity에 대해 batch norm 등을 적용하여 적절한 범위로 nomalize를 한다.
