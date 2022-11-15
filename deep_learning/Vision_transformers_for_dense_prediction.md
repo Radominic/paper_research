@@ -9,7 +9,7 @@ ViT를 사용하였다.
 
 ### 방법
 
-<p align="center"><img src="../resource/ranftl2021vision_1.png"></p>
+<p align="center"><img src="../resource/ranftl2021vision_1.PNG"></p>
 
 본 논문에서 제안하는 ViT를 사용한 dense prediction의 구조는 위와 같다.
 먼저 기존의 ViT와 같이 이미지를 패치단위로 분할하고 임베딩을 하는데, 이때 linear projection 또는 
