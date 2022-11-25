@@ -10,7 +10,7 @@ Partial Variable Training(PVT)을 제안한다.
 
 ### 방법
 
-<p align="center"><img src="../resource/yang2022partial_1.PNG"></p>
+<p align="center"><img src="../resource/yang2022partial_1.png"></p>
 
 PVT는 그림에서처럼 클라이언트마다 가지고있는 모델의 일부를 부분적으로 학습하여 서버로 전송하고 이를 취합한다.
 실험에서는 학습하는 모델 parameter의 양을 점진적으로 늘려가며 성능과 비용의 관계를 측정하였다.
