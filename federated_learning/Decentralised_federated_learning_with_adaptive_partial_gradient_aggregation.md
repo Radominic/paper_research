@@ -9,7 +9,7 @@
 
 ### 방법
 
-<p align="center"><img src="../resource/jiang2020decentralised_1.PNG"></p>
+<p align="center"><img src="../resource/jiang2020decentralised_1.png"></p>
 
 그림의 b에서처럼, 제안하는 방법은 각 device가 가지고 있는 모델을 서버로 전송하지 않고, 각각의 device로 전송한다.
 즉, 모델의 일부를 각 device에서 담당하여 aggregation하고 재배포를 하는 방식으로, n등분의 모델을 각각 n개의 device가 담당하여 aggregation할 수 있다.
