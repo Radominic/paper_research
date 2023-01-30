@@ -10,7 +10,7 @@
 
 ### 방법
 
-<p align="center"><img src="../resource/yu2021windtunnel_1.PNG"></p>
+<p align="center"><img src="../resource/yu2021windtunnel_1.png"></p>
 
 본 논문에서 제안하는 windtunnel의 구조는 위 그림과 같다. windtunnel은 기존 ML기반의 파이프라인을 미분가능한 뉴럴네트워크로 변경하여 end-to-end
 학습을 가능하게 한다.
