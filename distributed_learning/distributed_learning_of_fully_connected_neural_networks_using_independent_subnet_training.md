@@ -13,7 +13,7 @@ IST(Independent Subnet Training)를 제안한다.
 
 ### 방법
 
-<p align="center"><img src="yuan2022distributed.png"></p>
+<p align="center"><img src="../resource/yuan2022distributed.png"></p>
 
 본 논문에서 제안하는 IST는 위의 그림과 같다. IST는 fully connected layer만을 분산시키며 각 컴퓨팅 노드로 중복되지않은 subnet을 할당한다.
 각 subnet은 local sgd를 통해 학습되며 서버에서 재구성되고 re-sampling 과정을 통해 배포된다. 
